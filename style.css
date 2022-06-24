@@ -1,0 +1,468 @@
+
+.body1{
+    margin: 15px;
+    padding: 0;
+  }
+  
+  .bg{
+    background: url(/img/pubg1.jpeg);
+
+  }
+  
+  .containerr{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .containerr div{
+    height: 220px;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .containerr div:nth-child(1){
+    grid-column: 1 / 3;
+  }
+  
+  .containerr div:nth-child(7){
+    grid-column: 2 / 4;
+  }
+  
+  .containerr div:nth-child(11){
+    grid-column: 1 / 4;
+  }
+
+
+  .background{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+
+form{
+    height: 520px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #e5e5e5;
+}
+button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.social{
+  margin-top: 30px;
+  display: flex;
+}
+.social div{
+  background: red;
+  width: 150px;
+  border-radius: 3px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(255,255,255,0.27);
+  color: #eaf0fb;
+  text-align: center;
+}
+.social div:hover{
+  background-color: rgba(255,255,255,0.47);
+}
+.social .fb{
+  margin-left: 25px;
+}
+.social i{
+  margin-right: 4px;
+}
+
+
+
+
+
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.container1{
+  margin: 0 auto;
+  width:100%;
+  height: 100vh;
+  display:grid;
+  grid-template-columns: 5% repeat(3, 1fr) 5%;
+  grid-template-rows: 5% repeat(2,1fr) 5%;
+  grid-gap: 0%;
+  border-radius: 5%;
+  
+  
+
+}
+.imageOne{
+  grid-row: 2/3;
+  grid-column: 2 / -2;
+  background-color:rgb(247,247,247);
+  background-image:url('/img/pubg.png');
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  background-position:center;
+  color:rgb(255,255,255);
+
+  
+
+}
+.imageTwo{
+  grid-row: 3/4;
+  grid-column:2 / 3;
+  background-image:url('https://cdn.photographylife.com/wp-content/uploads/2016/06/Mass.jpg');
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  background-position:center;
+  color:rgb(255,255,255);
+}
+.imageThree{
+  grid-row: 3/4;
+  grid-column:3 / 4;
+  background-image:url('https://cdn.photographylife.com/wp-content/uploads/2016/06/Mass.jpg');
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  background-position:center;
+  color:rgb(255,255,255);
+}
+.imageFour{
+  grid-row: 3/4;
+  grid-column:4 / 5;
+  background-image:url('https://cdn.photographylife.com/wp-content/uploads/2016/06/Mass.jpg');
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  background-position:center;
+  color:rgb(255,255,255);
+}
+
+.imageFour{
+  grid-row: 3/4;
+  grid-column:4 / 5;
+  background-image:url('https://cdn.photographylife.com/wp-content/uploads/2016/06/Mass.jpg');
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  background-position:center;
+  color:rgb(255,255,255);
+}
+
+
+
+body{
+    background-color: antiquewhite;
+}
+
+
+
+
+
+.container2{
+    margin: 0 auto;
+    width:100%;
+    height: 100vh;
+    display:grid;
+    grid-template-columns: 5% repeat(3, 1fr) 5%;
+    grid-template-rows: 5% repeat(2,1fr) 5%;
+    grid-gap: 0%;
+    border-radius: 5%;
+  
+  }
+  .imageOne2{
+    grid-row: 2/3;
+    grid-column: 2 / -2;
+    background-color:rgb(247,247,247);
+    background-image:url('/img/pubg.png');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-position:center;
+    color:rgb(255,255,255);
+  }
+  .imageTwo2{
+    grid-row: 3/4;
+    grid-column:2 / 3;
+    background-image:url('https://cdn.photographylife.com/wp-content/uploads/2016/06/Mass.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-position:center;
+    color:rgb(255,255,255);
+  }
+  .imageThree2{
+    grid-row: 3/4;
+    grid-column:3 / 4;
+    background-image:url('https://cdn.photographylife.com/wp-content/uploads/2016/06/Mass.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-position:center;
+    color:rgb(255,255,255);
+  }
+  .imageFour2{
+    grid-row: 3/4;
+    grid-column:4 / 5;
+    background-image:url('https://cdn.photographylife.com/wp-content/uploads/2016/06/Mass.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-position:center;
+    color:rgb(255,255,255);
+  }
+
+  .p1{
+    margin: 100px;
+    text-align:center;
+    font-size: 150%;
+    color: black;
+    background-color: rgba(186, 163, 186, 0.401);
+}
+ 
+  
+.link{
+    text-decoration: none;
+}
+
+
+
+.wrapper {
+	width: 40%;
+	margin: 40px auto;
+}
+
+div.gallery {
+	margin-top: 30px;
+}
+
+div.gallery ul {
+	list-style-type: none;
+	margin-left: 35px;
+}
+
+/* animation */
+div.gallery ul li, div.gallery li img {
+	-webkit-transition: all 0.1s ease-in-out;
+  	-moz-transition: all 0.1s ease-in-out;
+  	-o-transition: all 0.1s ease-in-out;
+  	transition: all 0.1s ease-in-out;
+}
+
+div.gallery ul li {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 130px;
+	margin: 5px;
+	padding: 5px;
+	z-index: 0;
+}
+
+
+
+/* Image is position nicely under li */
+div.gallery ul li img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #dddddd;
+	padding: 5px;
+	width: 130px;
+	height: 130px;
+	background: #f0f0f0;
+}
+
+div.gallery ul li img:hover {
+	width: 200px;
+	height: 200px;
+	margin-top: -130px;
+	margin-left: -130px;
+	top: 65%;
+	left: 65%;
+}
+
+
+
+
+/* Responsive hack */
+@media only screen and (min-width: 499px) and (max-width: 1212px) {
+	.wrapper {
+		width: 500px;
+	}
+}
+
+@media only screen and (max-width: 498px) {
+	.wrapper {
+		width: 300px;
+	}
+
+	div.gallery ul {
+		list-style-type: none;
+		margin: 0;
+	}
+}
+
+
+
+
+section {
+	width: 80%;
+	margin: 0 auto;
+	line-height: 0;
+	position: relative;
+}
+section img {
+	width: 100%;
+}
+section article {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background: antiquewhite;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	mix-blend-mode: lighten;
+}
+section div {
+	background: black;
+	height: 25.3vw;
+}
+section div:nth-of-type(2) {
+	grid-column: 2 / 4;
+}
+
+
+
+
+.ss {padding-top: 6rem; 
+    padding-bottom: 8rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;}
+
+.box-shadow {-webkit-box-shadow: 0 1px 1px rgba(72,78,85,.6);
+box-shadow: 0 1px 1px rgba(72,78,85,.6);
+-webkit-transition: all .2s ease-out;
+-moz-transition: all .2s ease-out;
+-ms-transition: all .2s ease-out;
+-o-transition: all .2s ease-out;
+transition: all .2s ease-out;}
+    
+.box-shadow:hover {-webkit-box-shadow: 0 20px 40px rgba(72,78,85,.6);
+    box-shadow: 0 20px 40px rgba(72,78,85,.6);
+    -webkit-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+     transform: translateY(-15px);}
+
+@media (max-width:1050px){
+
+section.container {
+display:grid;
+grid-template-columns: 1fr 1fr;}
+
+}
+
+@media (max-width:800px){
+
+section.container {
+display:grid;
+grid-template-columns: 1fr ;}
+
+.mySection {grid-template-columns: 1fr;}
+
+}
+
+
+
+
+
+/* .container{
+    border: 1.5px solid firebrick;
+   margin: 30px auto; 
+
+}
+child{
+    color: tomato;
+    background-color: aliceblue;
+    font-weight: bolder;
+    font-size: 22px;
+    text-align: center;
+
+    margin: 5px;
+    padding: 40px;
+    
+
+    
+} 
+
+
+.container{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+} */
+
+
+
+
+
+
+
