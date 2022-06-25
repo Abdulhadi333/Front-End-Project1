@@ -11,7 +11,7 @@
     <title>pubg</title>
 
     <link rel="stylesheet" href="style.css">
-    
+    <script src="script.js"></script>
   </head>
   <body class="body1">
 
@@ -31,9 +31,9 @@
     <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img  src="./img/pubgLogo.png" alt="" width="85" height="75" class="d-inline-block align-text-top ">
+            <img  src="/img/pubgLogo.png" alt="" width="85" height="75" class="d-inline-block align-text-top ">
           
-        <img  src="./img/pubgLogo2.png" alt="" width="85" height="75" class="d-inline-block align-text-top ">
+        <img  src="/img/pubgLogo2.png" alt="" width="85" height="75" class="d-inline-block align-text-top ">
 
         </a>
         </div>
@@ -61,41 +61,35 @@
 <div class="background">
         <div class="shape"></div>
         <div class="shape"></div>
-    </div>
-  
+</div>
 
-    <div class="login">
-      <form name='form-login'>
-  
-          <h1>SIGN IN</h1>
-  
-          <label for="userName">Email</label>
-          <input type="email" id="userName" placeholder="Username" required>
-  
-          <label for="userPw">Password</label>
-          <input type="password" id= "userPw" placeholder="Password" required>
-  
-          <div id="remember">
-              <input type="checkbox" value="lsRememberMe" id="rememberMe"
-                     style="display: inline-block;">
-              <label>Remember me</label>
-          </div>
-  
-          <input id= "login_btn" type="submit" value="Login" onclick="check()">
-          <a class="btn btn-secondary btn-lg btn-block" href="game1.html" role="button">Sign in</a>
-        <a class="btn btn-secondary btn-lg btn-block" href="signup.html" role="button">Sign UP</a>
+<div class="login">
+  <form name='form-login'>
 
-  
-      </form>
-  </div>
-  
+      <h1>REGISTER</h1>
 
+      <label for="name">Email</label>
+      <input type="email" id="name" placeholder="Username" required>
 
+      <label for="pw">Password</label>
+      <input type="password"
+             id= "pw"
+             placeholder="Password" required>
+
+      <ul class="helper-text">
+          <li class="length">Must be at least 8 characters long.</li>
+          <li class="lowercase">Must contain a lowercase letter.</li>
+          <li class="uppercase">Must contain an uppercase letter.</li>
+          <li class="special">Must contain a number or special character.</li>
+      </ul>
+      <input id="rgstr_btn" type="submit" value="Register" onclick="store()">
+
+  </form>
+</div>
+
+ 
 </body>
 </html>
-
-
-
 
 
 
@@ -132,9 +126,9 @@
         </div>
     <div id="fotterimg">
         <ul>
-            <img src="./img/twitter.png"  width="24" height="24" >
-            <img src="./img/instagram.png"  width="24" height="24" >
-            <img src="./img/snapchat.png"  width="24" height="24" >  
+            <img src="/img/twitter.png"  width="24" height="24" >
+            <img src="/img/instagram.png"  width="24" height="24" >
+            <img src="/img/snapchat.png"  width="24" height="24" >  
         </ul>
     </div>
       </footer>
